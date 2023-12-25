@@ -1,6 +1,7 @@
+import java.lang.reflect.Array;
 import java.util.*;
 
-public class test1 {
+public class AllCollection {
     public static void main(String[] args) {
 
         //Collection eshte parent i list, set, queue

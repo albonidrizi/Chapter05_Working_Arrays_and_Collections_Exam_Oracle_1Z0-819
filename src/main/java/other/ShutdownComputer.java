@@ -1,6 +1,4 @@
-package com.exceptions;
-
-    import java.io.IOException;
+import java.io.IOException;
 
     public class ShutdownComputer {
         public static void main(String[] args) {

@@ -1,15 +1,16 @@
 package U01_java_collections;
 
-public class Mountain implements Comparable<Mountain> {
+public class U3_Mountain implements Comparable<U3_Mountain> {
     private String name;  // Variabla private për të mbajtur emrin e malit.
     private int height;   // Variabla private për të mbajtur lartësinë e malit.
 
-    public Mountain(String n, int h){
+    public U3_Mountain(String n, int h){
         this.name = n;   // Konstruktori i klasës që inicializon vlerën e emrit dhe lartësisë së malit.
         this.height = h;
     }
 
-    public int compareTo(Mountain o) {
+    @Override
+    public int compareTo(U3_Mountain o) {
         return this.height - o.height;  // Metoda për të krahasuar dy male sipas lartësisë së tyre.
     }
 

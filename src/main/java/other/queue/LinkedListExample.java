@@ -1,4 +1,4 @@
-package queue;
+package other.queue;
 
 import java.util.Collection;
 import java.util.LinkedList;

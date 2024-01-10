@@ -1,4 +1,4 @@
-package U01_java_collections.Personat;
+package U01_java_collections.ComparableAndComparator;
 
 import java.util.Comparator;
 

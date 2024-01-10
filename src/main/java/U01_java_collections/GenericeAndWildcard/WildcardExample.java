@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class WildcardExample {
     // Metoda që printon elementet e një ArrayList-i të përgjithshëm
-    public static void printElements(ArrayList<?> lista) {
+    public static void printElements(ArrayList<? /* extends/ super String*/> lista) {
         for (Object obj : lista) { // Për çdo objekt në listë
             System.out.println(obj); // Printo objektin
         }

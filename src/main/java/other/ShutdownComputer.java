@@ -1,3 +1,5 @@
+package other;
+
 import java.io.IOException;
 
     public class ShutdownComputer {

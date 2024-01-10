@@ -4,7 +4,7 @@ package U01_java_collections;
 
 import java.util.Arrays;
 
-public class ArrayMain {
+public class U1_ArrayMain {
     public static void main(String... args) {
 
             // Deklarimi dhe inicializimi i një vargu të tipit int me gjatësi 10
@@ -12,10 +12,12 @@ public class ArrayMain {
             // Shfaqja e vlerës së elementit të parë të vargut, i cili është 0 (vlera default për int)
             System.out.println(ids[0]);
 
+
             // Deklarimi dhe inicializimi i një vargu të tipit String me disa stringje
             String[] instruments = new String[]{"guitar", "drums", "bass"};
             // Shfaqja e vlerës së elementit të parë të vargut të stringjeve, që është "guitar"
             System.out.println(instruments[0]);
+
 
             // Deklarime të ndryshme të vargjeve dhe matricave për demonstrim
             int [] ids2;
@@ -28,6 +30,7 @@ public class ArrayMain {
             // Shfaq gjatësinë e vargut instruments
             System.out.println(instruments.length);
 
+
             // Fillon një for loop për të inicializuar vlerat e vargut ids me vlerat i*i
             System.out.println("******************  1");
             for(int i = 0; i < ids.length; i++) {
@@ -36,11 +39,13 @@ public class ArrayMain {
             }
             System.out.println();
 
+
             // Shfaq vlerat e vargut instruments duke përdorur for-each loop
             System.out.println("******************  2");
             for(String instrument: instruments) {
                 System.out.println(instrument);
             }
+
 
             // Rendit vargun e stringjeve në rend rritës duke përdorur Arrays.sort
             System.out.println("******************  3");
@@ -48,14 +53,17 @@ public class ArrayMain {
             // Shfaq vargun e renditur të stringjeve
             System.out.println(Arrays.toString(instruments));
 
+
             // Deklarimi dhe inicializimi i një vargu të tipit int me vlera të caktuara
             int[] fibArray = new int[] {0, 1, 5, 2, 3, 1, 8, 13};
             // Rendit vargun e numrave në rend rritës
             Arrays.sort(fibArray);
 
+
             System.out.println("******************  4");
             // Kërkon për vlerën 3 në varg dhe shfaq pozitën ku gjendet (në këtë rast, pozita 4)
             System.out.println(Arrays.binarySearch(fibArray, 3));
+
 
             System.out.println("******************  5");
             // Inicializimi i një matrice 3x3 dhe një matrice tjetër 3x10 për demonstrim
@@ -69,6 +77,7 @@ public class ArrayMain {
                     {"Struga", "Dibra"},
             };
 
+
             // Shfaq qytetet duke përdorur for loop për të shkuar nëpër të dy dimensionet e matricës
             System.out.println("******************  6");
             for(int i = 0; i < macedoniaCitiesGrouped.length; i++) {
@@ -77,13 +86,16 @@ public class ArrayMain {
                 }
             }
 
-            // Shfaq qytetet përsëri duke përdorur for-each loop për secilën rreshtë në matricë
+
+            // Shfaq qytetet përsëri duke përdorur for-each loop
+        // për secilën rreshtë në matricë
             System.out.println("******************  7");
             for(String[] row : macedoniaCitiesGrouped) {
                 for(String city : row) {
                     System.out.println(city);
                 }
             }
+
 
             // Shfaq matricën e qytetet e maqedonis si string
             System.out.println("******************  8");

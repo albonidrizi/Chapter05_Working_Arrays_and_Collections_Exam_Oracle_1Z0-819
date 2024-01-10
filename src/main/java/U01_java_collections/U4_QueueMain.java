@@ -1,15 +1,12 @@
 package U01_java_collections;
 import java.util.*;
 
-public class QueueMain {
+public class U4_QueueMain {
     public static void main(String[] args) {
 
          arrayDequeOperations();  // Thirrja e funksionit arrayDeque() për të demonstruar përdorimin e ArrayDeque.
-         priorityQueueOperations();
-         linkedListOperations();
+        // priorityQueueOperations();
 
-        //  queue();
-        //  list();
     }
 
 
@@ -152,9 +149,6 @@ public class QueueMain {
         System.out.println("*********************************************************************");
 
     }
-
-
-
     private static void queue() {
         Queue queue = new LinkedList();
 

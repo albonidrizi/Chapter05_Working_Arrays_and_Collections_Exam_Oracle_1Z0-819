@@ -1,4 +1,4 @@
-package set;
+package other.set;
 
 import java.util.*;
 
